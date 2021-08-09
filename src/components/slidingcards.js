@@ -1,8 +1,10 @@
+import { render } from '@testing-library/react';
 import { div } from 'prelude-ls';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 function SlidingCards () {
+    
     return(
         <React.Fragment>
             <div class="ctnr">
@@ -10,7 +12,7 @@ function SlidingCards () {
                     <h3>Donnie</h3>
                 </div>
                 <div className="pl pl-2">
-                    <h3>Janice & Joplin</h3>
+                    <h3>Janice and Joplin</h3>
                 </div>
                 <div className="pl pl-3">
                     <h3>Mr. Piffles</h3>
@@ -30,23 +32,23 @@ function SlidingCards () {
                 </Link>
             </div>
         </React.Fragment>
-    );
+    )
 }
 
 const panels = document.querySelectorAll('.pl')
 
-        panels.forEach((pl) => {
-            pl.addEventListener('click', () => {
-                removeActiveClasses()
-                pl.classList.add('active')
-            })
-        })
+panels.forEach((pl) => {
+    pl.addEventListener('click', () => {
+        removeActiveClasses()
+        pl.classList.add('active')
+    })
+})
 
-        function removeActiveClasses() {
-            panels.forEach(pl => {
-                pl.classList.remove('active')
-            })
-        }
+function removeActiveClasses() {
+    panels.forEach(pl => {
+        pl.classList.remove('active')
+    })
+}
 
 export default SlidingCards
 

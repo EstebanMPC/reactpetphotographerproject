@@ -29,10 +29,18 @@ function ReviewFooter() {
                     <div className="row">
                         <div className="col-4 col-sm-2 offset-1">
                             <ul className="list-unstyled ">
-                                <Link to="/" className="text-decoration-none text-white">Home</Link>
-                                <Link to="/" className="text-decoration-none text-white">My Services</Link>
-                                <Link to="/" className="text-decoration-none text-white">Gallery</Link>
-                                <Link to="/" className="text-decoration-none text-white">Contact</Link>
+                                <li>
+                                    <Link to="/" className="text-decoration-none text-white">Home</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="text-decoration-none text-white">My Services</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="text-decoration-none text-white">Gallery</Link>
+                                </li>
+                                <li>
+                                    <Link to="/" className="text-decoration-none text-white">Contact</Link>
+                                </li>
                             </ul>
                         </div>
                         <div className="col-6 col-sm-5 text-center ">
@@ -50,12 +58,18 @@ function ReviewFooter() {
                                 </Link>
                         </div>
                         <div className="col-sm-4 ">
+                            <ul className="list-unstyled ">
+                             <li>
                                 <Link to="/">    
-                                    <i className="fa fa-phone fa-lg text-white mx-2">1-206-555-1234</i>
+                                    <i className="fa fa-phone fa-lg text-white mx-2 "></i> <span className="text-white">1-206-555-1234</span>
                                 </Link>
+                            </li>
+                            <li>
                                 <Link to="/">    
-                                    <i className="fa fa-envelope fa-lg text-white mx-2">contact@jamesavery.com</i>
+                                    <i className="fa fa-envelope fa-lg text-white mx-2 text-decoration-none"></i><span className="text-white"> contact@jamesavery.com</span>
                                 </Link>
+                            </li>   
+                            </ul>
                         </div>
                     </div>
                 </div>

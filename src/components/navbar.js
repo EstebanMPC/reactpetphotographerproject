@@ -28,12 +28,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/" className="nav-link">    
-                                Gallery
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/" className="nav-link">    
+                            <Link to="/contactme" className="nav-link">    
                                 Contact Me
                             </Link>
                         </li>

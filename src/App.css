@@ -48,8 +48,8 @@ header {
 /* Index Background image */
 
 #intro {
-  background: url(".///images/pexels-photo-1831997.jpeg") no-repeat center
-    center fixed;
+  background: url(".//images/pexels-photo-1831997.jpeg") no-repeat center center
+    fixed;
   background-color: rgba(0, 0, 0, 0.6);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -69,23 +69,20 @@ header {
 }
 
 .pl-1 {
-  background-image: url('.//images/akita-5964180_1920.jpg')
+  background-image: url(".//images/akita-5964180_1920.jpg");
 }
 .pl-2 {
-  background-image: url('.//images/mammal-3305320_1920.jpg')
+  background-image: url(".//images/mammal-3305320_1920.jpg");
 }
 .pl-3 {
-  background-image: url('.//images/dog-3277416_1920.jpg')
+  background-image: url(".//images/dog-3277416_1920.jpg");
 }
 .pl-4 {
-  background-image: url('.//images/dog-4415649_1920.jpg')
+  background-image: url(".//images/dog-4415649_1920.jpg");
 }
 .pl-5 {
-  background-image: url('.//images/dog-1168663_1920.jpg')
+  background-image: url(".//images/dog-1168663_1920.jpg");
 }
-
-
-
 
 /* myservices background image */
 
